@@ -61,6 +61,21 @@
         display: block!important;
     }
 
+
+    @media screen and (max-width: 739px) {
+        #card {
+            width: 320px;
+            height: auto;
+            padding: 0;
+            background-position: -24px;
+        }
+
+        .content-card {
+            margin-bottom: 70px;
+            padding: 0 26px;
+        }
+    }
+
     @keyframes growthIn {
         from {
             opacity: 0;
